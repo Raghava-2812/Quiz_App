@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.quiz-header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0b74de;
+}
+
+.quiz-main {
+  display: flex;
+  gap: 20px;
+}
+
+.side-panel {
+  /* flex:1; */
+  background: #e0f2fe;
+  padding: 15px;
+  width: 100px;
+  border-radius: 12px;
+}
+
+.side-panel h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.palette-item {
+  width: 35px;
+  height: 35px;
+  background: #bfdbfe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.palette-item:hover {
+  transform: scale(1.1);
+}
+
+.palette-item.active {
+  background: #0b74de;
+  color: white;
+}
+
+.palette-item.answered {
+  background: #34d399;
+  color: white;
+}
+
+.quiz-container {
+  flex: 2;
+}
+
+.question-card {
+  background: #fef3c7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.option-btn {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background: #bfdbfe;
+}
+
+.option-btn.selected {
+  background: #0b74de;
+  color: white;
+  border: none;
+}
+
+.question-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-nav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0b74de;
+  color: white;
+  transition: 0.3s;
+}
+
+.question-nav button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.question-nav button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.result-container {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.5rem;
+  color: #0b74de;
+}
+/* ... existing styles ... */
+
+.palette-item.review {
+  background: #facc15; /* yellow for review */
+  color: #1f2937;
+}
+
+.review-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #f59e0b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.review-btn:hover {
+  transform: translateY(-2px);
+  background: #d97706;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0b74de;
+}
