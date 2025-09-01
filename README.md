@@ -4,7 +4,9 @@ A simple and interactive Quiz Application built using **React.js**. Users can an
 
 ---
 
-## Demo Link:https://Raghava-2812.github.io/Quiz_App
+## Demo
+Visit the live app here: [https://Raghava-2812.github.io/Quiz_App](https://Raghava-2812.github.io/Quiz_App)
+
 
 ---
 
@@ -28,8 +30,8 @@ A simple and interactive Quiz Application built using **React.js**. Users can an
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Quiz-App.git
-cd Quiz-App
+git clone https://github.com/Raghava-2812/Quiz_App.git
+cd Quiz_App
 ```
 ### 2. Install Dependencies
 ```bash
@@ -39,4 +41,6 @@ npm install
 ```bash
 npm start
 ```
-#### Visit http://localhost:3000 to view the app in the browser.
+#### Visit `http://localhost:3000` to view the app in the browser.
+
+
